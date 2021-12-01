@@ -1,0 +1,1 @@
+"C:\Python\Python37-32\Lib\site-packages\PyQt5\pyuic5.bat" komponentler.ui -o komponentler.py

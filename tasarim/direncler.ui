@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>direncler</class>
+ <widget class="QMainWindow" name="direncler">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>522</width>
+    <height>230</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Direnç Hesaplama</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>buton_resim/direnc.png</normaloff>buton_resim/direnc.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QComboBox" name="bant1">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>91</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Siyah</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Kahve</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Kırmızı</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Turuncu</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sarı</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Yeşil</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mavi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mor</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Gri</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Beyaz</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="carpan">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>30</y>
+      <width>91</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Siyah</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Kahve</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Kırmızı</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Turuncu</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sarı</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Yeşil</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mavi</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="tolerans">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>30</y>
+      <width>91</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Altın</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Gümüş</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="bant2">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>30</y>
+      <width>91</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Siyah</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Kahve</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Kırmızı</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Turuncu</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sarı</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Yeşil</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mavi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mor</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Gri</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Beyaz</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_1">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>71</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>1. Bant Değer</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>10</y>
+      <width>71</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>2. Bant Değer</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>10</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>3. Bant Çarpan</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>10</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>4. Bant Tolerans</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="hesapla1_btn">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>30</y>
+      <width>101</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Hesapla</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="direnc1_label">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>60</y>
+      <width>161</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>8</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>00000000 ohm %0Tolerans</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="ozdirenc">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>90</y>
+      <width>161</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="uzunluk">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>120</y>
+      <width>161</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="kesitalan">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>150</y>
+      <width>161</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>90</y>
+      <width>71</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Özdirenç        :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>120</y>
+      <width>71</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Tel Uzunluğu  :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>150</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Tel Kesit Alan :</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="hesapla2_btn">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>180</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Hesapla</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>180</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Direnç            :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="direnc2_label">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>180</y>
+      <width>111</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>00000000 ohm</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="gerilim">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>90</y>
+      <width>161</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="akim">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>120</y>
+      <width>161</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>90</y>
+      <width>61</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Gerilim(V) :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>120</y>
+      <width>61</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Akım(I)     :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_12">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>150</y>
+      <width>51</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Direnç(R) :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="direnc3_label">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>150</y>
+      <width>111</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>00000000 ohm</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="hesapla3_btn">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>150</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Hesapla</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>60</y>
+      <width>51</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>8</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Direnç      :</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
